@@ -1,0 +1,89 @@
+<!doctype html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no" />
+ <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="format-detection" content="telephone=no" />
+<title>Antpool</title>
+<link rel="stylesheet" href="css/bootstrap.min.css" />
+<link rel="stylesheet" href="css/style.min.css">
+<link rel="stylesheet" href="css/normal.css" />
+<link rel="stylesheet" href="css/style_phone.css" />
+</head>
+<body>
+<div class="horizen">
+<div id="wrapper" class="wrapper">    
+      <div id="mm-menu-mask" class="mm-menu-mask" onclick="$('#mm-menu-toggle').click()"></div>
+      <div class="main_body">
+        <div class="top">
+              <div class="menu"  ><a></a></div>   
+              <div class="logo"><a href="home.html"></a></div>         
+         </div>
+         <div class="middle login_middle">         
+                  <div class="login_content">
+                     <div class="login_text">
+                         <input type="text" placeholder="用户名"/>
+                         <span class="login_hr"></span>
+                         <input type="text" placeholder="密码"/>
+                    </div>
+                    <div class="login_error" style="display:none;"><span>用户名和密码不正确</span></div>
+                    <div class="login_submit">
+                       <input type="button"  value="登录" onclick="$('.login_error').show()">
+                    </div>
+                  </div>                      
+         </div>
+         <div class="bottom login_bottom"  >
+              <span class="bottom_logo"></span>
+              <span><a href="http://www.antpool.com">电脑版</a></span>
+         </div>
+    </div>
+</div>
+
+  <button id="mm-menu-toggle" class="mm-menu-toggle"  >
+       <span></span>
+  </button>
+  
+<nav id="mm-menu" class="mm-menu">
+     <ul class="mm-menu__items">
+      <li class="mm-menu__item">
+        <a class="mm-menu__link" href="home.html">
+          <span class="mm-menu__link-text"> 首页</span>
+        </a>
+      </li>
+      <li class="mm-menu__item">
+        <a class="mm-menu__link" href="dashboard.html">
+          <span class="mm-menu__link-text">用户面板</span>
+        </a>
+      </li>
+      <li class="mm-menu__item">
+        <a class="mm-menu__link" href="pay.html">
+          <span class="mm-menu__link-text">收益记录</span>
+        </a>
+      </li>
+      <li class="mm-menu__item">
+        <a class="mm-menu__link" href="poolStats.html">
+          <span class="mm-menu__link-text">矿池统计</span>
+        </a>
+      </li>
+     </ul>
+     <div class="version">
+             <span>V1.0</span>
+        </div>
+</nav> 
+</div>
+</body>
+</html>
+<script src="js/jquery-1.9.1.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/materialMenu.min.js"></script>
+<script src="js/home.js"></script>
+<script>
+    var menu = new Menu;
+    var offsetHieght=$(".login_middle").innerHeight();     
+       var margintop=(offsetHieght)/2-150;
+       $(".login_middle").css("hieght",offsetHieght+"px");
+       $(".login_content").css("margin-top",margintop+"px");
+       $(".login_bottom").css("margin-top",offsetHieght-95+"px");
+</script>

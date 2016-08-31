@@ -1,0 +1,237 @@
+<!doctype html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+ <meta charset="utf-8">
+ <meta http-equiv="x-ua-compatible" content="ie=edge">
+<meta name="format-detection" content="telephone=no" />
+<meta name="referrer" content="always" />
+<meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no"/>
+<title>Antpool</title>
+<link rel="stylesheet" href="css/bootstrap.min.css" />
+<link rel="stylesheet" href="css/style.min.css">
+<link rel="stylesheet" href="css/normal.css" />
+<link rel="stylesheet" href="css/style_phone.css" />
+ <link rel="icon" href="/skin/frontend/base/default/favicon.ico" type="image/x-icon" />
+ <link rel="apple-touch-icon-precomposed" href="//m.baidu.com/static/index/screen_icon.png"/>
+</head>
+<body>
+<div class="horizen"> 
+  <div id="wrapper" class="wrapper">	  
+      <div id="mm-menu-mask" class="mm-menu-mask" onclick="$('#mm-menu-toggle').click()"></div>
+      <div class="main_body">
+        <div class="top">
+              <div class="menu"><a></a></div>   
+              <div class="logo"><a href="home.html" ></a></div>
+              <div class="login ">    
+                    <a  data-toggle="dropdown"  class="login_in"> </a>
+                          <ul  class="dropdown-menu loginUL" role="menu">
+                             <li><span>648800939@qq.com</span></li>
+                             <li><span><a href="login.html">退出</a></span></li>
+                          </ul>            
+              </div>  
+         </div>
+         <div class="middle">
+              <div class="md_info">
+                   <div class="ph">
+                       <span><a href="poolStats.html">101.99 PH/s</a></span>
+                       <span>矿池总算力</span>
+                   </div>
+                   <div class="ph">
+                       <span><a href="poolStats.html">315899  名</a></span>
+                       <span>有效矿工</span>
+                   </div>
+              </div>    
+              <div style="clear:both"></div>
+              <div class="home_login">
+                    <a   data-toggle="modal"  data-target="#login_widow" class="button_login"/><span>登录</span></a>
+                    <div class="users" style="display:none;"  >
+                              <ul>
+                                   <li class="userLi">                                           
+                                        <div id="usersback1"  class="user_dropdown" ></div>  
+                                        <div>
+                                              <span class="user_span">当前子账户</span>
+                                              <span  id="user-child" class="user_span">christopherzhu</span>
+                                        </div>                                                                         
+                                   </li>
+                                   <li class="userLi linkhref" >
+                                       <a href="dashboard.html">用户面板</a>
+                                       <a href="poolStats.html">矿池统计</a>
+                                   </li>                                   
+                              </ul>  
+                    </div>
+              </div> 
+              <div class="sub_account" onclick="$('#usersback1').toggleClass('usersback')" style="right:56%;width:44%;display:none;" >
+                      <a  data-toggle="dropdown"> </a>
+                      <ul  id="user-ul"  class="dropdown-menu sub_account_role" role="menu" style="width:90%; margin-left:3px; margin-right:14px;">
+                         <li><span>christopherzhu.11111</span></li>
+                         <li><span>christopherzhu.1</span></li>
+                         <li><span>christopherzhu.1</span></li>
+                         <li><span>christopherzhu.1</span></li>
+                         <li><span>christopherzhu.1</span></li>
+                         <li><span>christopherzhu.1</span></li>
+                         <li><span>蚂蚁路由器</span></li>
+                      </ul>   
+               </div>
+              <div class="chart">
+                  <span class="charttitle">算力曲线</span>
+                  <div id="chart_container" ></div>
+              </div>     
+              <div class="md_foot">  
+                    <div>总产出</div>
+                    <div>
+                        <span>8,508 Blocks</span>
+                        <span>210,946 Btc</span>
+                    </div>
+              </div> 
+              <div class="md_foot m2">  
+                    <div>当前难度</div>
+                    <div>
+                        <span>60,883,825,480</span>
+                        <span>+2.39%</span>
+                    </div>
+              </div> 
+              <div class="banner">
+                    <a href="http://m.btc.com/applications/app"><img src="http://news-img-s.btc.com/images/201605/8cabe945f205ba1b4fb8d7e929a29862.750x250.png"  style="width:100%;" alt="BTC.COM"  /></a>
+              </div>                                    
+         </div>
+         <div class="bottom">
+              <span class="bottom_logo"></span>
+              <span><a href="http://www.antpool.com">电脑版</a></span>
+         </div>
+    </div>
+</div>
+
+    <button id="mm-menu-toggle" class="mm-menu-toggle">
+          <span></span>
+      </button>
+	
+<nav id="mm-menu" class="mm-menu">
+     <ul class="mm-menu__items">
+	    <li class="mm-menu__item">
+	      <a class="mm-menu__link" href="home.html">
+	        <span class="mm-menu__link-text"> 首页</span>
+	      </a>
+	    </li>
+	    <li class="mm-menu__item">
+	      <a class="mm-menu__link" href="dashboard.html">
+	        <span class="mm-menu__link-text">用户面板</span>
+	      </a>
+	    </li>
+	    <li class="mm-menu__item">
+	      <a class="mm-menu__link" href="pay.html">
+	        <span class="mm-menu__link-text">收益记录</span>
+	      </a>
+	    </li>
+	    <li class="mm-menu__item">
+	      <a class="mm-menu__link" href="poolStats.html">
+	        <span class="mm-menu__link-text">矿池统计</span>
+	      </a>
+	    </li>
+     </ul>
+     <div class="version">
+             <span>V1.0</span>
+        </div>
+</nav> 
+</div>
+
+<div class="modal fade login_widow" id="login_widow">
+   <div class="modal-dialog">
+      <div class="modal-content">
+         <div class="modal-header" style="border:0px;">
+            <button type="button" class="close"   data-dismiss="modal" aria-hidden="true">
+                  &times;
+            </button>
+         </div>
+         <div class="modal-body">
+              <div class="login_content" style="width:230px;">
+                     <div class="login_text">
+                         <input type="text" placeholder="用户名"/>
+                         <span class="login_hr"></span>
+                         <input type="text" placeholder="密码"/>
+                    </div>
+                    <div class="login_error" style="display:none;"><span>用户名和密码不正确</span></div>
+                    <div class="login_submit">
+                       <input type="button"  value="登录" onclick="$('.login_error').show()" style="margin-top:13px;">
+                    </div>
+                    <div class="login_mark"><span>注册和找回密码请用PC浏览器访问蚂蚁矿池</span></div>
+             </div>   
+         </div>
+      </div> 
+   </div> 
+</div>
+
+</body>
+</html>
+
+<script src="js/jquery-1.9.1.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/systemtools.js"></script>
+<script src="js/highcharts.js"></script>
+<script src="js/materialMenu.min.js"></script>
+<script src="js/home.js"></script>
+<script>
+  var menu = new Menu;
+/**
+ * 矿池算力曲线
+ * 
+ */
+ var g_chart;
+ var g_unit = 'PH/s';
+ var pool_speed = [[1439780407301, 68.50], [1439784007301, 68.60], [1439787607301, 68.42], [1439791207301, 67.89], [1439794807301, 67.76], [1439798407301, 67.71], [1439802007301, 67.68], [1439805607301, 67.47], [1439809207301, 68.58], [1439812807301, 69.42], [1439816407301, 68.78], [1439820007301, 68.50], [1439823607301, 68.74], [1439827207301, 69.08], [1439830807301, 68.38], [1439834407301, 68.31], [1439838007301, 68.60], [1439841607301, 68.33], [1439845207301, 68.20], [1439848807301, 67.81], [1439852407301, 68.04], [1439856007301, 68.02], [1439859607301, 68.34], [1439863207301, 68.69], [1439866807301, 68.43], [1439870407301, 69.04], [1439874007301, 68.92], [1439877607301, 68.64], [1439881207301, 67.60], [1439884807301, 68.67], [1439888407301, 68.39], [1439892007301, 68.97], [1439895607301, 68.81], [1439899207301, 69.21], [1439902807301, 68.68], [1439906407301, 69.73], [1439910007301, 69.39], [1439913607301, 69.79], [1439917207301, 70.02], [1439920807301, 69.79], [1439924407301, 70.11], [1439928007301, 70.18], [1439931607301, 69.74], [1439935207301, 70.82], [1439938807301, 70.15], [1439942407301, 70.22], [1439946007301, 70.21], [1439949607301, 69.53], [1439953207301, 69.36], [1439956807301, 69.98], [1439960407301, 69.59], [1439964007301, 69.42], [1439967607301, 69.91], [1439971207301, 69.61], [1439974807301, 69.03], [1439978407301, 68.85], [1439982007301, 69.33], [1439985607301, 69.84], [1439989207301, 69.99], [1439992807301, 69.75], [1439996407301, 70.07], [1440000007301, 70.71], [1440003607301, 71.04], [1440007207301, 69.59], [1440010807301, 69.68], [1440014407301, 69.13], [1440018007301, 68.58], [1440021607301, 68.34], [1440025207301, 68.92], [1440028807301, 69.23], [1440032407301, 68.98], [1440036007301, 68.36]];
+$(document).ready(function() {
+    var _timezone = f_get_cookie_timezone();
+    Highcharts.setOptions({
+        global: {
+            timezoneOffset: -_timezone,
+        }
+    });
+    g_chart = new Highcharts.Chart({
+        chart: {
+            renderTo: 'chart_container',
+           // type: 'areaspline',
+             type: 'line',
+             zoomType: 'x',
+             backgroundColor: '#052748',
+ 
+        },
+        credits: {
+            enabled: false
+        },
+
+        title: null,
+        xAxis: { type: 'datetime' ,lineColor:'#697784',},
+        yAxis: { title: { text: '' },gridLineColor:'#37516a'},
+        legend: { enabled: false },
+        tooltip: { formatter: function() { return  '<font style="color:white";>'+this.y +' '+g_unit+'</font>' },
+                     borderRadius:40,
+                     borderWidth:0,
+                     color:'#ffffff',
+                     backgroundColor:'#f76d02'                
+         },
+        plotOptions: { 
+            areaspline: {
+                marker: {
+                    enabled: true,
+                    symbol: 'circle',
+                    radius: 1,
+                    borderRadius:'5px',
+                },
+                states: {
+                    hover: {
+                        lineWidth: 1,
+                        borderRadius:25
+                    }
+                }
+            }
+        },
+        series: [{
+            color: '#f76d02',
+            }]
+    });
+    g_chart.yAxis[0].setTitle({
+        text: ''
+    }, true);
+
+    g_chart.series[0].setData(pool_speed);
+});
+</script>

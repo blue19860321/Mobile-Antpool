@@ -1,0 +1,128 @@
+
+.dashboard_earn{margin-top: 7px; margin-left: 17px;margin-right: 15px;}
+.dashboard_earn  span{display: block; width:50%;float: left;border:solid 0px red;font-size: 15px;color: #ffffff;margin-top: 15px; overflow: hidden;}
+.dashboard_earn div span:last-child{text-align: right;float:right;}
+.dashboard_btcnum{color:#46b692;margin-right: 3px}
+.dashboard_calclute{ margin-top:7px;height: 55px;width:100%;background-color: #0c3650;padding:10px;padding-top: 5px;padding-bottom: 5px;}
+.dashboard_calclute div{ float:left;width:33.3%;height:100%;}
+.dashboard_calclute div span{display:block;border:solid 0px red; width:100%;height: 51%; text-align: center;font-size: 15px;}
+.login_middle{ border:solid 0px red; position:  absolute;  bottom:50px; top:40px; width:100%;height: 100%; padding-left: 45px; padding-right: 45px;/*vertical-align: middle; display: table*/;text-align:center;}
+.login_content{ width:250px;border:solid 0px red;  /*display: table-cell;*/margin: 0 auto; }
+.login_text{width:100%; background-color: #ffffff;padding-left: 12px; padding-right: 12px; border:solid 1px #dddddd; border-radius: 5px;  /* display: inline-block;*/}
+.login_hr{ border-bottom:solid 1px #dddddd;  display: block;}
+.login_content input[type="text"]{width:100%; height: 46px;border:0px; text-align: center; font-size: 14px; color:#888888;outline: none;-webkit-appearance:none; border-radio:0; font-size: 14px;}
+.login_content input[type="text"]:focus{color:#222222;}
+.login_content input[type="password"]{width:100%; height: 46px;border:0px; text-align: center; font-size: 14px; color:#888888;outline: none;-webkit-appearance:none; border-radio:0; font-size: 14px;}
+.login_content input[type="password"]:focus{color:#222222;}
+.login_submit input[type="button"]{width:100%;margin-top: 18px; height: 42px;color:#ffffff; font-size: 15px!important; background-color: #46b692; border:solid 1px #46b692; border-radius: 7px}
+.login_submit input[type="button"]:hover{color:#318293;}
+.login_error {margin-top: 14px; color: #f9222b; font-size: 12px;  text-align: center;}
+.work_title{ text-align: center; display: block;  margin: 0 auto;font-size: 17px;color:#ffffff;}
+.work_info{ margin-top:10px;padding-left: 15px; padding-right: 15px;padding-top: 8px; background-color: #0c3650}
+.work_type{width:100%;border:solid 0px  red; height:17px;margin-top: 12px;font-size: 15px;}
+.work_mark{height: auto; margin-top: 12px;border:solid 0px  red; padding-bottom: 16px;font-size:15px;}
+.work_mark span:nth-child(1){  width:100%; border:solid 0px red;  }
+.work_type  span:nth-child(1){ display: block;float: left; width:60%; border:solid 0px red;}
+.work_type  span:nth-child(2){display: block;  float: left; width:40%;  border:solid 0px red;}
+.work_userli{width:50%;border:solid 0px red!important;}
+.work_miner{width:100%; margin-top: 15px;}
+.work_select{ width:100%; margin-top:10px; margin-bottom: 10px; padding-left: 15px;padding-right: 10px;border:solid 0px red; height: 55px;}
+.select_left{float: left; width:50%; border:solid 0px red;height: 55px; font-size: 14px; line-height: 55px;}
+.select_right{float: right; width:50%; height: 55px;font-size: 14px;}
+.work_order{float: right; width: 75%;height: 55px;font-size: 14px; margin-right: 15px;}
+.work_order span{display: block; text-align: right;border:solid 0px red;height: 50%;color: #46b692;;}
+.select_window { position: absolute;right:0;width:40%;z-index: 1000; }
+.select_window a{display:block;width: 100%;height: 55px;border:solid 0px red;z-index: 100; cursor: pointer}
+.select_role{width: 130px; margin-right: 5px;margin-top: 5px;}
+.select_role li span{text-align: right; display: block;  padding-right: 25%;border:solid 0px red;}
+.select_role li:last-child {border:0px;height: 28px;line-height: 31px;}
+.work_table div:first-child span:first-child{text-align:left;font-weight: bold;}
+.work_table div:last-child span:first-child{text-align:right;}
+.work_table div:last-child span:first-child div:first-child{width:58%; text-align:right;border:solid 0px red}
+.work_table div:last-child span:first-child div:last-child{width:42%; text-align:right;border:solid 0px red}
+.work_wrong{background-color: #76132d;}
+.work_wrong div:last-child span:first-child div:last-child{width:42%; text-align:right;border:solid 0px red; padding-right:8px;}
+.work_page{width:100%;margin-top: 13px; margin-bottom: 40px; }
+.workpage_content{width:65%; /*width:130px;*/height:31px;  margin:0 auto;}
+.workpage_content span{ display: block; height: 31px;float: left;width: 33.3%;border: solid 0px red;}
+.left_perss{background-image: url(../img/previouspage_normal.png);background-repeat:no-repeat; ;background-position: center}
+.left_perss_disabled{background-image: url(../img/previouspage_disabled.png);}
+/*.left_perss:hover{background-image: url(../img/previouspage_press.png);}*/
+.pagenum{text-align: center;line-height: 31px;}
+.right_perss{background-image: url(../img/nextpage_normal.png);background-repeat: no-repeat; ;background-position: center}
+.right_perss_disabled{background-image: url(../img/nextpage_disabled.png);}
+/*.right_perss:hover{background-image: url(../img/nextpage_press.png);}*/
+.sub_account{ position:absolute;right: 50%;width:50%;  margin-top:-55px; z-index: 1000; border:solid 0px red;}
+.sub_account a{display:block;width: 100%;height: 55px;border:solid 0px red;z-index: 100; cursor: pointer}
+.sub_account_role{width: 140px; border:solid 0px red; right: 0px; z-index: 1000;}
+.sub_account_role li span{text-align: right; display: block; border:solid 0px red; margin-right: 10%; overflow: hidden;}
+.sub_account_role li:last-child {border:0px;height: 28px;line-height: 31px;}
+.poolStats{width: 100%;}
+.poolStats_table div:nth-child(1){width:29%;height:23px; border:solid 0px red;}
+.poolStats_table div:nth-child(2){width:22%; border:solid 0px red;}
+.poolStats_table div:nth-child(3){width:28%; border:solid 0px red;}
+.poolStats_table div:nth-child(4){width:21%; border:solid 0px red;}
+
+
+
+
+.poolStats_table div span{display: block;width: 100%;height: 50%; text-align: left; font-size: 14px;}
+.poolStats_lucky{width: 100%;background-color: #0c3650; padding-left:10px;padding-right:10px; height: 40px; margin-top: 7px; font-size: 15px;}
+.poolStats_lucky span:first-child{width:50%;height:100%; float: left; line-height: 35px;}
+.poolStats_lucky span:last-child{width:50%;height:100%; float: left; line-height: 35px;text-align: right; }
+.poolStats_luckyInfo{margin-top: 0px;height: 60px; margin-bottom: 25px; padding-left:0px; padding-right: 0px;}
+.poolStats_luckyInfo div{width:16.6%; border:solid 0px red;  font-size: 14px;}
+.poolStats_luckyInfo div span{ font-size: 14px;}
+
+.pay_pplns{height: 30px; padding-top:0px; margin-top: 2px;}
+.pay_title{background-color: #052748; margin-top: 25px!important; margin-bottom: 7px;height: 30px;}
+.pay_title div:first-child span div{text-align: left!important;width: 45px!important;border:solid 0px red;height: 30px; padding-left: 0px;}
+.pay_pplns div{height: 30px;width:25%; text-align: right; }
+.pay_pplns div span{ display: block; line-height:32px;width:100%; height: 100%;border:solid 0px red;text-align: right; font-size: 13px;white-space:nowrap;}
+.pay_pplns div:first-child span a{text-align: left;width: 45px;border:solid 0px red; display: block; height: 30px;}
+.pay_pplns div:nth-child(1){width: 15%;border:solid 0px red;height: 30px;}
+.pay_pplns div:nth-child(2){width: 20%;border:solid 0px red;height: 30px;}
+.pay_pplns div:nth-child(3){width: 27%;border:solid 0px red;height: 30px;}
+.pay_pplns div:nth-child(4){width: 38%;border:solid 0px red;height: 30px;}
+
+.pay_pps{height: 30px; text-align: right; padding-top:0px; margin-top: 2px;}
+.pps_title{background-color: #052748; margin-top:  25px!important; ; margin-bottom: 7px;height: 30px;}
+.pps_title div:first-child span div{text-align: left!important; width:55px!important; height: 30px;line-height:32px; padding-left: 1px; }
+.pay_pps div:first-child span{text-align: left!important;width: 55px;border:solid 0px red; display: block; height: 30px;line-height:32px;}
+.pay_pps div span{ display:block;height: 30px; text-align:right;border:solid 0px red;height: 30px;font-size: 13px;line-height:32px;}
+.pay_pps div:nth-child(1){width: 20%;border:solid 0px red;height: 30px;}
+.pay_pps div:nth-child(2){width: 22%;border:solid 0px red;height: 30px;}
+.pay_pps div:nth-child(3){width: 26%;border:solid 0px red;height: 30px;}
+.pay_pps div:nth-child(4){width: 32%;border:solid 0px red;height: 30px;}
+
+.pm{height: 30px; text-align: right; padding-top:0px; margin-top: 2px;}
+.pm_title{background-color: #052748; margin-top:  25px!important; ; margin-bottom: 7px;height: 30px;}
+.pm_title div:first-child span div{text-align: center!important; width:110px!important; height: 30px;line-height:32px; }
+.pm div:first-child span{text-align: left!important;width: 110px;border:solid 0px red; display: block; height: 30px;line-height:32px;}
+.pm div span{ display:block; text-align:center; border:solid 0px red;height: 30px;font-size: 13px;line-height:32px;}
+.pm div:last-child span{text-align: right;}
+.pm-title{background-color: #052748; margin-top: 25px; margin-bottom: 7px;height: 30px;}
+.pm div:nth-child(1){width: 42%;border:solid 0px red; height: 30px;}
+.pm div:nth-child(2){width: 25%;border:solid 0px red;height: 30px;}
+.pm div:nth-child(3){width: 33%;border:solid 0px red;height: 30px;}
+
+.p2p_solo{height: 30px; padding-top:0px; margin-top: 2px;}
+.p2p_solo div{height: 30px;width:25%; text-align: right; }
+.p2p_solo div span{ display: block; line-height:32px;width:100%; height: 100%;border:solid 0px red;text-align: right; font-size: 13px;white-space:nowrap;}
+.p2p_solo div:first-child span a{text-align: left;width: 45px;border:solid 0px red; display: block; height: 30px;}
+.p2p_solo div:nth-child(1){width: 15%;border:solid 0px red;height: 30px;}
+.p2p_solo div:nth-child(2){width: 31%;border:solid 0px red;height: 30px;}
+.p2p_solo div:nth-child(3){width: 30%;border:solid 0px red;height: 30px;}
+.p2p_solo div:nth-child(4){width: 23%;border:solid 0px red;height: 30px;}
+ #pplns_table,#solo_table,#p2p_table,#payment_table{ display: none;}
+.poolStats_luckyInfo div span:last-child {  border: solid 0px red;  font-size: 13px;  }
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2) {
+    .left_perss{background-image: url(../img/previouspage_normal@2x.png);background-size: 31px auto;}
+    .left_perss_disabled{background-image: url(../img/previouspage_disabled@2x.png);background-size: 31px auto;}
+    /*.left_perss:hover{background-image: url(../img/previouspage_press@2x.png);background-size: 31px auto;}*/
+    .right_perss{background-image: url(../img/nextpage_normal@2x.png);background-size: 31px auto;}
+    .right_perss_disabled{background-image: url(../img/nextpage_disabled@2x.png);background-size: 31px auto;}
+/*    .right_perss:hover{background-image: url(../img/nextpage_press@2x.png);background-size: 31px auto;}*/
+
+}

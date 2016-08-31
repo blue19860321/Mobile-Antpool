@@ -1,0 +1,402 @@
+<!doctype html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no" />
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="format-detection" content="telephone=no" />
+<title>收益与支付记录</title>
+<link rel="stylesheet" href="css/bootstrap.min.css" />
+<link rel="stylesheet" href="css/style.min.css">
+<link rel="stylesheet" href="css/normal.css" />
+<link rel="stylesheet" href="css/style_phone.css" />
+</head>
+<body>
+<div class="horizen"> 
+  <div id="wrapper" class="wrapper">    
+      <div id="mm-menu-mask" class="mm-menu-mask" onclick="$('#mm-menu-toggle').click()"></div>
+      <div class="main_body">
+        <div class="top">
+              <div class="menu"><a></a></div>   
+              <div class="logo"><a href="home.html" ></a></div>
+              <div class="login ">    
+                    <a  data-toggle="dropdown"  class="login_in"> </a>
+                          <ul  class="dropdown-menu loginUL" role="menu">
+                             <li><span>648800939@qq.com</span></li>
+                             <li><span><a href="login.html">退出</a></span></li>
+                          </ul>            
+              </div> 
+         </div>
+         <div class="middle">
+            <div class="md_info">
+                  <span class="work_title">收益与支付记录</span>
+            </div>    
+            <div style="clear:both"></div>
+            <div class="home_login" style="margin-top:22px">
+                  <a   data-toggle="modal"  data-target="#login_widow" class="button_login" style="display:none;" />登录</a>
+                  <div class="users" >
+                            <ul style="margin-left:0px;" class="users_ul">
+                                 <li class="userLi work_userli">                                           
+                                      <div id="usersback1"  class="user_dropdown" ></div>  
+                                      <div class="user_account">
+                                            <span class="user_span">当前子账户</span>
+                                            <span id="user-child"  class="user_span">christopherzhu</span>
+                                      </div>                                                                         
+                                 </li>
+                                 <li  class="userLi work_userli" style="border-left:solid 1px #7c97a2!important;padding-right:5px;">
+                                       <div id="usersback2"  class="user_dropdown" ></div>  
+                                       <div class="user_account">
+                                            <span class="user_span">当前数据</span>
+                                            <span id="pay-child" class="user_span">PPS收益记录</span>
+                                       </div>      
+                                 </li>                                                                             
+                            </ul>  
+                  </div>
+            </div> 
+            <div class="sub_account" onclick="$('#usersback1').toggleClass('usersback')">
+                    <a  data-toggle="dropdown"> </a>
+                    <ul  id="user-ul" class="dropdown-menu sub_account_role" role="menu" style="margin-right:15px;">
+                           <li><span>christopherzhu.1</span></li>
+                           <li><span>christopherzhu.1</span></li>
+                           <li><span>christop</span></li>
+                           <li><span>chris</span></li>
+                           <li><span>chris01</span></li>
+                           <li><span>christopherzhu.1111111</span></li>
+                           <li><span>蚂蚁路由器</span></li>
+                    </ul>   
+           </div>
+            <div class="sub_account" onclick="$('#usersback2').toggleClass('usersback')" style="right:16px; width:48%;">
+                  <a  data-toggle="dropdown"> </a>
+                  <ul id="pay-ul" class="dropdown-menu sub_account_role" role="menu" style="padding-right:14px;">
+                       <li id="pps"><span>PPS收益记录</span></li>
+                       <li id="pplns"><span>PPLNS收益记录</span></li>    
+                       <li id="solo"><span>SOLO收益记录</span></li>               
+                       <li id="p2p"><span>P2P收益记录</span></li>
+                       <li id="payment"><span>支付记录</span></li>
+                  </ul>   
+            </div>
+
+   <!------------------------------------------------------------------------pps-------------------------------------------------------------------------------->
+             <div id="pps_table">
+                        <div class="dashboard_calclute  pay_pps pps_title">  
+                             <div> <span><div>时间</div></span></div>
+                             <div> <span>难度</span></div>
+                             <div><span>工作量</span></div>
+                             <div><span>金额</span></div>                 
+                       </div>  
+                       <div class="dashboard_calclute pay_pps">  
+                            <div><span>15/06/15</span></div>
+                            <div><span>71.13G</span></div>
+                            <div><span>60.88G</span></div>
+                            <div><span>0.00008243</span></div>                 
+                       </div>  
+                       <div class="dashboard_calclute pay_pps">  
+                             <div><span>15/06/15</span></div>
+                             <div><span>721.13G</span></div>
+                             <div><span>660.88G</span> </div>
+                             <div><span>0.00008243</span> </div>                 
+                       </div>  
+                       <div class="dashboard_calclute pay_pps">  
+                            <div> <span>15/06/15</span> </div>
+                            <div><span>721.13G</span></div>
+                            <div><span>660.88G</span> </div>
+                            <div><span>0.00008243</span> </div>        
+                       </div> 
+                        <div class="dashboard_calclute pay_pps">  
+                            <div><span>15/06/15</span></div>
+                            <div><span>71.13G</span></div>
+                            <div><span>60.88G</span></div>
+                            <div><span>0.00008243</span></div>                 
+                       </div>  
+                       <div class="dashboard_calclute pay_pps">  
+                             <div><span>15/06/15</span></div>
+                             <div><span>721.13G</span></div>
+                             <div><span>660.88G</span> </div>
+                             <div><span>0.00008243</span> </div>                 
+                       </div>  
+                       <div class="dashboard_calclute pay_pps">  
+                            <div> <span>15/06/15</span> </div>
+                            <div><span>721.13G</span></div>
+                            <div><span>660.88G</span> </div>
+                            <div><span>0.00008243</span> </div>        
+                       </div> 
+                        <div class="dashboard_calclute pay_pps">  
+                            <div><span>15/06/15</span></div>
+                            <div><span>71.13G</span></div>
+                            <div><span>60.88G</span></div>
+                            <div><span>0.00008243</span></div>                 
+                       </div>  
+                       <div class="dashboard_calclute pay_pps">  
+                             <div><span>15/06/15</span></div>
+                             <div><span>721.13G</span></div>
+                             <div><span>660.88G</span> </div>
+                             <div><span>0.00008243</span> </div>                 
+                       </div>  
+                       <div class="dashboard_calclute pay_pps">  
+                            <div> <span>15/06/15</span> </div>
+                            <div><span>721.13G</span></div>
+                            <div><span>660.88G</span> </div>
+                            <div><span>0.00008243</span> </div>        
+                       </div> 
+            </div>
+ <!------------------------------------------------------------------------pplns-------------------------------------------------------------------------------->
+           <div id="pplns_table">
+                        <div class="dashboard_calclute  pay_pplns pay_title">  
+                              <div> <span><div>高度</div></span></div>
+                              <div><span>工作量</span></div>
+                              <div><span>金额</span></div>
+                              <div><span>时间</span></div>                 
+                       </div>  
+                       <div class="dashboard_calclute pay_pplns">  
+                              <div><span><a href="https://mchain.btc.com/block/361037">361037</a></span>  </div>
+                              <div><span>33.11G</span></div>
+                              <div><span>0.00008243</span> </div>
+                              <div><span>15/06/03 11:11:11</span> </div>                 
+                       </div>  
+                       <div class="dashboard_calclute pay_pplns">  
+                              <div> <span><a href="https://mchain.btc.com/block/361037">361037</a></span>  </div>
+                              <div> <span>333.11G</span></div>
+                              <div><span>0.00008111</span></div>
+                              <div> <span>15/06/03 01:11:01</span></div>                 
+                       </div>  
+                       <div class="dashboard_calclute pay_pplns">  
+                              <div><span><a href="https://mchain.btc.com/block/361037">361037</a></span> </div>
+                              <div><span>333.11G</span> </div>
+                              <div><span>0.00008111</span> </div>
+                              <div><span>15/06/03 01:11:06</span></div>                 
+                       </div>  
+                       <div class="dashboard_calclute pay_pplns">  
+                              <div><span><a  href="https://mchain.btc.com/block/361037">361037</a></span>  </div>
+                              <div><span>33.11G</span></div>
+                              <div><span>0.00008243</span> </div>
+                              <div><span>15/06/03 11:11:11</span> </div>                 
+                       </div>  
+                       <div class="dashboard_calclute pay_pplns">  
+                              <div> <span><a  href="https://mchain.btc.com/block/361037">361037</a></span>  </div>
+                              <div> <span>333.11G</span></div>
+                              <div><span>0.00008111</span></div>
+                              <div> <span>15/06/03 01:11:01</span></div>                 
+                       </div>  
+                       <div class="dashboard_calclute pay_pplns">  
+                              <div><span><a  href="https://mchain.btc.com/block/361037">361037</a></span> </div>
+                              <div><span>333.11G</span> </div>
+                              <div><span>0.00008111</span> </div>
+                              <div><span>15/06/03 01:11:06</span></div>                 
+                       </div> 
+            </div>
+  <!------------------------------------------------------------------------solo-------------------------------------------------------------------------------->
+             <div id="solo_table">
+                        <div class="dashboard_calclute  p2p_solo pay_title">  
+                              <div><span><div>高度</div></span></div>
+                              <div><span>块收益</span></div>
+                              <div><span>实际收益</span></div>
+                              <div> <span>时间</span> </div>                 
+                       </div>  
+                       <div class="dashboard_calclute p2p_solo">  
+                             <div><span><a  href="https://mchain.btc.com/block/361037">361037</a></span> </div>
+                              <div><span>25.12345678</span>  </div>
+                              <div><span>24.8722222</span>  </div>
+                              <div> <span>15/06/03</span></div>                 
+                       </div>  
+                       <div class="dashboard_calclute p2p_solo">  
+                              <div><span><a href="https://mchain.btc.com/block/361037">361037</a></span> </div>
+                              <div><span>25.12345678</span> </div>
+                              <div><span>24.8722222</span></div>
+                              <div> <span>15/06/03</span> </div>              
+                       </div>  
+                       <div class="dashboard_calclute p2p_solo">  
+                              <div> <span><a  href="https://mchain.btc.com/block/361037">361037</a></span> </div>
+                              <div> <span>25.12345678</span> </div>
+                              <div> <span>24.8722222</span>  </div>
+                              <div>  <span>15/06/03</span> </div>          
+                       </div> 
+                       <div class="dashboard_calclute p2p_solo">  
+                             <div><span><a  href="https://mchain.btc.com/block/361037">361037</a></span> </div>
+                              <div><span>25.12345678</span>  </div>
+                              <div><span>24.8722222</span>  </div>
+                              <div> <span>15/06/03</span></div>                 
+                       </div>  
+                       <div class="dashboard_calclute p2p_solo">  
+                              <div><span><a  href="https://mchain.btc.com/block/361037">361037</a></span> </div>
+                              <div><span>25.12345678</span> </div>
+                              <div><span>24.8722222</span></div>
+                              <div> <span>15/06/03</span> </div>              
+                       </div>  
+                       <div class="dashboard_calclute p2p_solo">  
+                              <div> <span><a  href="https://mchain.btc.com/block/361037">361037</a></span> </div>
+                              <div> <span>25.12345678</span> </div>
+                              <div> <span>24.8722222</span>  </div>
+                              <div>  <span>15/06/03</span> </div>          
+                       </div> 
+            </div>
+         
+            <!------------------------------------------------------------------------p2p-------------------------------------------------------------------------------->
+             <div id="p2p_table">
+                        <div class="dashboard_calclute  p2p_solo pay_title">  
+                             <div>  <span><div>高度</div></span> </div>
+                              <div>  <span>矿池块收益</span> </div>
+                              <div> <span>金额</span></div>
+                              <div> <span>时间</span></div>                 
+                       </div>  
+                       <div class="dashboard_calclute p2p_solo">  
+                             <div>  <span><a  href="https://mchain.btc.com/block/361037">361037</a></span> </div>
+                              <div> <span>25.12345678</span> </div>
+                              <div>  <span>12.09876543</span>  </div>
+                              <div> <span>15/06/03</span> </div>                 
+                       </div>  
+                       <div class="dashboard_calclute p2p_solo">  
+                             <div> <span><a  href="https://mchain.btc.com/block/361037">361037</a></span> </div>
+                              <div>  <span>25.12345678</span>  </div>
+                              <div>  <span>12.09876543</span>  </div>
+                              <div>  <span>15/06/03</span> </div>                   
+                       </div>  
+                       <div class="dashboard_calclute p2p_solo">  
+                             <div> <span><a  href="https://mchain.btc.com/block/361037">361037</a></span>  </div>
+                              <div> <span>25.12345678</span> </div>
+                              <div> <span>12.09876543</span>  </div>
+                              <div> <span>15/06/03</span> </div>             
+                       </div> 
+                         <div class="dashboard_calclute p2p_solo">  
+                             <div>  <span><a  href="https://mchain.btc.com/block/361037">361037</a></span> </div>
+                              <div> <span>25.12345678</span> </div>
+                              <div>  <span>12.09876543</span>  </div>
+                              <div> <span>15/06/03</span> </div>                 
+                       </div>  
+                       <div class="dashboard_calclute p2p_solo">  
+                             <div> <span><a  href="https://mchain.btc.com/block/361037">361037</a></span> </div>
+                              <div>  <span>25.12345678</span>  </div>
+                              <div>  <span>12.09876543</span>  </div>
+                              <div>  <span>15/06/03</span> </div>                   
+                       </div>  
+                       <div class="dashboard_calclute p2p_solo">  
+                             <div> <span><a  href="https://mchain.btc.com/block/361037">361037</a></span>  </div>
+                              <div> <span>25.12345678</span> </div>
+                              <div> <span>12.09876543</span>  </div>
+                              <div> <span>15/06/03</span> </div>             
+                       </div> 
+            </div>
+            <!-----------------------------------------------------------------------Payment records-------------------------------------------------------------------------------->
+             <div id="payment_table">
+                        <div class="dashboard_calclute pm pm_title">  
+                             <div> <span><div>时间</div></span> </div>
+                              <div> <span>Tx</span>   </div>
+                              <div> <span>金额</span>   </div>
+                       </div>  
+                       <div class="dashboard_calclute pm">  
+                             <div>  <span>15/06/15 17:45:17</span> </div>
+                             <div> <span><a href="https://mchain.btc.com/tx/aa58ad0a0469de0521505cd397bb1dfa6b50ae86027cb6facdb574135d47445f">点击访问</a></span> </div>
+                              <div>  <span>0.00008243</span> </div>
+                       </div>  
+                       <div class="dashboard_calclute pm">  
+                             <div>  <span>15/06/15 17:45:17</span>  </div>
+                              <div> <span><a href="https://mchain.btc.com/tx/aa58ad0a0469de0521505cd397bb1dfa6b50ae86027cb6facdb574135d47445f">点击访问</a></span>   </div>
+                              <div> <span>0.00008111</span>  </div>                               
+                       </div>  
+                       <div class="dashboard_calclute pm">  
+                             <div> <span>15/06/15 17:45:17</span>   </div>
+                              <div> <span><a href="https://mchain.btc.com/tx/aa58ad0a0469de0521505cd397bb1dfa6b50ae86027cb6facdb574135d47445f">点击访问</a></span>  </div>
+                              <div> <span>0.00008111</span>   </div>                                           
+                       </div> 
+                         <div class="dashboard_calclute pm">  
+                             <div>  <span>15/06/15 17:45:17</span> </div>
+                             <div> <span><a href="https://mchain.btc.com/tx/aa58ad0a0469de0521505cd397bb1dfa6b50ae86027cb6facdb574135d47445f">点击访问</a></span> </div>
+                              <div>  <span>0.00008243</span> </div>
+                       </div>  
+                       <div class="dashboard_calclute pm">  
+                             <div> <span>15/06/15 17:45:17</span>  </div>
+                             <div> <span><a href="https://mchain.btc.com/tx/aa58ad0a0469de0521505cd397bb1dfa6b50ae86027cb6facdb574135d47445f">点击访问</a></span>   </div>
+                             <div> <span>0.00008111</span>  </div>                               
+                       </div>  
+                       <div class="dashboard_calclute pm">  
+                             <div> <span>15/06/15 17:45:17</span>   </div>
+                              <div> <span><a href="https://mchain.btc.com/tx/aa58ad0a0469de0521505cd397bb1dfa6b50ae86027cb6facdb574135d47445f">点击访问</a></span>  </div>
+                              <div> <span>0.00008111</span>   </div>                                           
+                       </div> 
+                  </div>
+            </div>
+            <div class="work_page">
+                <div class="workpage_content">
+                    <span class="left_perss left_perss_disabled"></span>
+                    <span class="pagenum">1/173</span>
+                    <span  class="right_perss"></span>
+                </div>
+          </div>
+      </div>  
+         <div class="bottom">
+              <span class="bottom_logo"></span>
+              <span><a href="http://www.antpool.com">电脑版</a></span>
+         </div>
+    </div>
+</div>
+
+    <button id="mm-menu-toggle" class="mm-menu-toggle">
+          <span></span>
+      </button>
+  
+<nav id="mm-menu" class="mm-menu">
+     <ul class="mm-menu__items">
+      <li class="mm-menu__item">
+        <a class="mm-menu__link" href="home.html">
+          <span class="mm-menu__link-text"> 首页</span>
+        </a>
+      </li>
+      <li class="mm-menu__item">
+        <a class="mm-menu__link" href="dashboard.html">
+          <span class="mm-menu__link-text">用户面板</span>
+        </a>
+      </li>
+      <li class="mm-menu__item">
+        <a class="mm-menu__link" href="pay.html">
+          <span class="mm-menu__link-text">收益记录</span>
+        </a>
+      </li>
+      <li class="mm-menu__item">
+        <a class="mm-menu__link" href="poolStats.html">
+          <span class="mm-menu__link-text">矿池统计</span>
+        </a>
+      </li>
+     </ul>
+     <div class="version">
+             <span>V1.0</span>
+        </div>
+</nav> 
+</div>
+
+<div class="modal fade login_widow" id="login_widow">
+   <div class="modal-dialog">
+      <div class="modal-content">
+         <div class="modal-header" style="border:0px;">
+            <button type="button" class="close"   data-dismiss="modal" aria-hidden="true">
+                  &times;
+            </button>
+         </div>
+         <div class="modal-body">
+              <div class="login_content" style="width:230px;">
+                     <div class="login_text">
+                         <input type="text" placeholder="用户名"/>
+                         <span class="login_hr"></span>
+                         <input type="text" placeholder="密码"/>
+                    </div>
+                    <div class="login_error" style="display:none;"><span>用户名和密码不正确</span></div>
+                    <div class="login_submit">
+                       <input type="button"  value="登录" onclick="$('.login_error').show()" style="margin-top:13px;">
+                    </div>
+                    <div class="login_mark"><span>注册和找回密码请用PC浏览器访问蚂蚁矿池</span></div>
+             </div>   
+         </div>
+      </div> 
+   </div> 
+</div>
+</body>
+</html>
+
+<script src="js/jquery-1.9.1.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/systemtools.js"></script>
+<script src="js/highcharts.js"></script>
+<script src="js/materialMenu.min.js"></script>
+<script src="js/home.js"></script>
+<script>
+  var menu = new Menu;
+</script>

@@ -1,0 +1,26 @@
+{
+  "home.html": {
+    "resources": [
+      "js/systemtools.js",
+      "img/logo_bitmain@2x.png",
+      "js/materialMenu.min.js",
+      "js/jquery-1.9.1.min.js",
+      "img/login_in@2x.png",
+      "css/style_phone.css",
+      "css/style.min.css",
+      "js/highcharts.js",
+      "js/bootstrap.min.js",
+      "img/logo@2x.png",
+      "js/home.js",
+      "css/normal.css",
+      "css/bootstrap.min.css",
+      "login.html"
+    ],
+    "refer": []
+  },
+  "login.html": {
+    "resources": [
+      "js/jquery-1.8.3.min.js"
+    ]
+  }
+}
